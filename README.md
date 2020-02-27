@@ -16,9 +16,5 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 ## Flutter Text 组件
-textAlign                   文本对齐方式(center 居中，left 左 对齐，right 右对齐，justfy 两端对齐)
-
-textDirection               文本方向(ltr 从左至右，rtl 从右至 左)
-
-overflow                    文字超出屏幕之后的处理方式(clip 裁剪，fade 渐隐，ellipsis 省略号)
+![如图pic_01](/img/pic_01.jpg)
 
