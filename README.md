@@ -17,4 +17,4 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Flutter Text 组件
 ![如图pic_01](/img/pic_01.jpg)
-
+![如图pic_01](/img/pic_02.jpg)
