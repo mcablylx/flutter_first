@@ -1,18 +1,29 @@
 import 'package:flutter/material.dart';
 
-void main()=>runApp(MyApp());
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: "Flutter Demo",
       home: Scaffold(
         appBar: AppBar(
-          title: Text('flutter demo'),
+          title: Text(
+            "标题title",
+            textAlign: TextAlign.right,
+            textDirection: TextDirection.rtl,
+            style: TextStyle(
+              decoration: TextDecoration.underline,
+              backgroundColor: Colors.blue,
+              wordSpacing: -0.5,
+            ),
+          ),
+          backgroundColor: Colors.red,
         ),
         body: HomeContent(),
+        backgroundColor: Colors.yellow,
       ),
-      theme: ThemeData(primarySwatch: Colors.yellow),
     );
   }
 }
@@ -20,17 +31,8 @@ class MyApp extends StatelessWidget {
 class HomeContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Center(
-      child: Text(
-        "你好flutter 111",
-        textDirection: TextDirection.ltr,
-        style: TextStyle(
-          fontSize: 40.0,
-//          color: Colors.red
-          color: Color.fromRGBO(0, 0, 0, 2.0),
-        ),
-      ),
+      child: Text("就是要个文字"),
     );
   }
 }
